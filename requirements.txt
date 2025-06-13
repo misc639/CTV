@@ -1,8 +1,6 @@
 streamlit
 yfinance
 pandas
-numpy
-ta
-requests
+pandas-ta
 plotly
-feedparser
+requests
