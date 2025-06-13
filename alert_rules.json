@@ -1,0 +1,24 @@
+{
+  "AAPL": [
+    {
+      "type": "RSI",
+      "condition": ">",
+      "value": 70,
+      "message": "⚠️ RSI above 70 on AAPL"
+    },
+    {
+      "type": "MACD_CROSS",
+      "direction": "bullish",
+      "message": "📈 Bullish MACD crossover on AAPL"
+    }
+  ],
+  "BTC-USD": [
+    {
+      "type": "EMA_CROSS",
+      "fast": 20,
+      "slow": 50,
+      "direction": "bullish",
+      "message": "🚀 EMA20 crossed above EMA50 on BTC"
+    }
+  ]
+}
